@@ -10,3 +10,5 @@ Then, simply run `./news.sh`.
 
 To create a shortcut that works anywhere within your file system, add the following line to your `.bash_profile`:
 `alias news="/absolute/path/to/file/terminal_news/news.sh"`
+
+Limit results with the `-n` flag e.g. `news -n 3` will return the top 3 headlines and URL's.
