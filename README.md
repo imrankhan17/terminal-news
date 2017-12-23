@@ -6,7 +6,7 @@ To get started:
 * Right click [here](https://raw.githubusercontent.com/imrankhan17/terminal-news/master/news.sh) and save the file.
 * Or, enter `git clone https://github.com/imrankhan17/terminal-news.git` in your terminal.
 
-Then, simply run `./news.sh`.
+Then, make the shell script executable by running `chmod +x news.sh`.  The script can now be run by entering `./news.sh`.
 
 To create a shortcut that works anywhere within your file system, add the following line to your `.bash_profile`:
 `alias news="/absolute/path/to/file/terminal_news/news.sh"`
